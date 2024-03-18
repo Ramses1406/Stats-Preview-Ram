@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Stats-Preview-Card</title>
+</head>
+
+
+
+<style>
+ @media screen and (max-width: 375px) { 
+/* 
+ .flex1 {display: flex;
+    flex-direction: column;
+}
+ .order {
+    order: 9999;
+}  */
+  
+}
+
+/* fonts */
+
+.inner400 {
+font-family: "Inter", sans-serif;
+font-weight: 400px;
+}
+.inner700 {
+    font-family: "Inter", sans-serif;
+font-weight: 700px;
+
+}
+.lendeca {  font-family: "Lexend Deca", sans-serif;
+font-weight: 700px;
+}
+
+pre {
+  white-space: pre-line; /* Mantiene los saltos de línea */
+  font-family: inherit; /* Hereda la fuente del elemento padre */
+  /* Agrega cualquier otro estilo necesario */
+}
+
+</style>
+
+<body class="bg-[#090b1a] flex items-center justify-center mx-auto min-h-screen" >
+   
+    <div class="flex
+     
+    max-[780px]:flex-col 
+    lg:flex-row
+    max-[400px]:px-10
+    min-[400px]:px-16
+    max-[675px]:px-16
+    max-[400px]:relative
+    max-[400px]:left-[7px]
+   
+    ">
+        <!-- CARD-1 -->
+        <div class=" bg-[#1b1938]  
+        rounded-tl-lg 
+        rounded-bl-lg 
+        pr-24 
+        pl-12
+        max-[375px]:pl-2
+        max-[375px]:pr-9
+        min-[400px]:pb-16
+        max-[675px]:pb-16
+
+          
+        max-[780px]:order-last ">
+
+            <h1 class="
+            max-[375px]:text-center
+            max-[375px]:text-[26px] 
+            max-[375px]:hidden
+             pt-16 pl-6 text-4xl font-bold text-white/85">  Get <span class="text-[#aa5cdbdb]">insights</span> that help <br> 
+                your business grow.
+            </h1>
+
+               <h1 class="
+               max-[375px]:text-center
+                max-[375px]:text-[28px]
+                max-[375px]:pt-10
+                min-[376px]:hidden
+                pt-16 pl-6
+             font-bold
+             
+              text-white/85">  Get <span class="text-[#aa5cdbdb]">insights</span> that 
+                help your business <br> grow
+            </h1>
+
+            <p class="
+            max-[375px]:text-center 
+            max-[375px]:hidden
+            pt-5 
+            pl-6
+         text-gray-400/75">Discover the benefits of data analytics and make <br>
+                better decisions regarding revenue, customer <br>
+                experience, and overall efficiency.</p>
+
+                <p class="
+                max-[375px]:text-center
+                max-[376px]:text-sm
+                min-[376px]:hidden
+                pt-5 
+                pl-6
+                 text-gray-400/75">Discover the benefits of data <br>
+                analytics and make better decisions <br>
+                regarding revenue, customer <br>
+                experience, and overall efficiency.</p>
+
+            <!-- **INFO STATS** -->
+            <div class="
+            
+            min-[400px]:pt-[40px]
+            max-[675px]:pt-[40px]
+
+
+
+            max-[375px]:text-center 
+            max-[375px]:flex-col 
+            max-[375px]:pt-8
+            max-[375px]:pb-8
+            relative max-[480px]:left-6 
+            flex justify-around 
+            gap-5
+             text-white pt-28">   
+
+            <div>
+                <span class="text-2xl font-bold text-white/95">10k+ </span> 
+                <br>
+                <span class="text-xs tracking-[0.5px] font-medium uppercase text-gray-400/75">companies</span>
+            </div>
+
+            <div>
+                <span class="text-2xl font-bold text-white/95">314  </span>
+                <br> 
+                <span class="text-xs tracking-[0.5px] font-medium uppercase text-gray-400/75">templates</span>
+            </div>
+
+            <div>
+                <span class="text-2xl font-bold min-[375px]:text-white/95">12m+ </span>
+                <br> 
+                <span class="text-xs font-medium tracking-[0.5px] uppercase text-gray-400/75">queries</span>
+            </div>
+            </div>
+        </div>
+            
+        <!-- CARD-2 -->
+        <div>
+            
+        <div class="bg-[#a633ed8c] h-full rounded-tr-lg rounded-br-lg max-[780px]:hidden">
+            
+             <img class="opacity-25 contrast-150 object-cover h-full rounded-tr-lg rounded-br-lg max-[780px]:hidden" src="./images/image-header-desktop.jpg" alt="">
+        </div>
+
+        <div class="bg-[#a633eda2] rounded-tr-lg min-[780px]:hidden min-[375px]:rounded-t-lg">
+
+            <img src="./images/image-header-mobile.jpg" class="opacity-25 contrast-150 rounded-tr-lg min-[780px]:hidden min-[375px]:rounded-t-lg" alt="">
+        </div> 
+
+
+        
+            
+    </div>
+
+
+</body>
+</html>
